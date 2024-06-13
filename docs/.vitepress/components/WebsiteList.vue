@@ -19,9 +19,7 @@ function formatTime(time: string | Date) {
 <template>
   <div flex="~ col wrap" gap8 py2>
     <div v-for="website of websites[id]" :key="website.title" flex gap4 px3>
-      <a :href="website.link" target="_blank">
-        <img w-10 :src="website.logo" :alt="website.title" />
-      </a>
+      <img w-10 :src="website.logo" :alt="website.title" />
 
       <div flex="~ col" flex-1 gap1>
         <div flex items-baseline gap2>
