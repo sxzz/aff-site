@@ -34,8 +34,8 @@
   "scripts": {
     "lint": "eslint --cache .",
     "lint:fix": "pnpm run lint --fix",
-    "build": "vitepress build",
-    "dev": "vitepress",
+    "build": "vitepress build docs",
+    "dev": "vitepress dev docs",
     "typecheck": "vue-tsc --noEmit",
     "format": "prettier --cache --write ."
   },

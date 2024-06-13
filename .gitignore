@@ -4,4 +4,4 @@ dist
 *.log
 .DS_Store
 .eslintcache
-.vitepress/cache
+docs/.vitepress/cache
