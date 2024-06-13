@@ -24,7 +24,6 @@ export const cloud: Website[] = [
     rewardsType: 'dollar',
     expiry: '60 天有效',
     tags: ['VPS'],
-    // detailLink: '/cloud/digitalocean',
   },
 ]
 

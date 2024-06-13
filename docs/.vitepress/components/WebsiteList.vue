@@ -17,9 +17,9 @@ function formatTime(time: string | Date) {
 </script>
 
 <template>
-  <div flex="~ col wrap" gap8 py2>
+  <div flex="~ wrap" justify-between gap12 py2>
     <div v-for="website of websites[id]" :key="website.title" flex gap4 px3>
-      <img w-10 :src="website.logo" :alt="website.title" />
+      <img w-10 :src="website.logo" :alt="website.title" self-start />
 
       <div flex="~ col" flex-1 gap1>
         <div flex items-baseline gap2>
@@ -54,7 +54,7 @@ function formatTime(time: string | Date) {
         </div>
       </div>
 
-      <div flex="~ col" items-start justify-center gap1>
+      <div flex="~ col" ml20 items-start justify-center gap1>
         <div v-if="website.rewards" flex items-center gap1 text-2xl font-bold>
           <div
             v-if="website.rewardsType === 'dollar'"

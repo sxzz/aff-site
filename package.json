@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.218",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.1.1",
     "@sxzz/eslint-config": "^3.12.1",
     "@sxzz/prettier-config": "^2.0.2",
     "@types/node": "^20.14.2",
