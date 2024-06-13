@@ -36,6 +36,7 @@
     "lint:fix": "pnpm run lint --fix",
     "build": "vitepress build docs",
     "dev": "vitepress dev docs",
+    "preview": "vitepress preview docs",
     "typecheck": "vue-tsc --noEmit",
     "format": "prettier --cache --write ."
   },
