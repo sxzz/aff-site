@@ -41,7 +41,7 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "date-fns": "^3.6.0",
+    "@vueuse/core": "^10.11.0",
     "vue": "^3.4.27"
   },
   "devDependencies": {

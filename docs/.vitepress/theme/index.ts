@@ -10,7 +10,7 @@ import WebsiteList from '../components/WebsiteList.vue'
 import type { EnhanceAppContext } from 'vitepress'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-
+import './global.css'
 import 'uno.css'
 
 export default {
