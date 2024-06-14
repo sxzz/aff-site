@@ -10,7 +10,7 @@ const websites: Record<string, _websites.Website[]> = _websites as any
 </script>
 
 <template>
-  <div flex="~ wrap" justify-between gap12 py2>
+  <div flex="~ wrap" gap10 py2>
     <WebsiteItem
       v-for="website of websites[id]"
       :key="website.title"

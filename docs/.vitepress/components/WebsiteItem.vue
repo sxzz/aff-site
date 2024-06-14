@@ -30,9 +30,11 @@ function copyCode() {
         <img
           :src="website.logo"
           :alt="website.title"
+          h-12
           w-12
           items-end
           self-start
+          object-contain
           op90
         />
       </div>
@@ -45,7 +47,8 @@ function copyCode() {
         <VPBadge
           v-for="tag of website.tags"
           :key="typeof tag === 'string' ? tag : tag.text"
-          :text="tag"
+          :text="typeof tag === 'string' ? tag : tag.text"
+          :type="typeof tag === 'string' ? undefined : tag.type"
         />
       </div>
       <div font-outfit>{{ website.title }}</div>
