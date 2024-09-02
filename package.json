@@ -45,11 +45,11 @@
     "vue": "^3.4.38"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.241",
+    "@iconify/json": "^2.2.243",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.4.0",
     "@sxzz/eslint-config": "^3.17.4",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^20.16.1",
+    "@types/node": "^20.16.3",
     "eslint": "^9.9.1",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
