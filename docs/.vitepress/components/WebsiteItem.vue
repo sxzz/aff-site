@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { VPBadge } from 'vitepress/theme'
 import { useClipboard } from '@vueuse/core'
+import { VPBadge } from 'vitepress/theme'
 import type { Website } from '../website'
 
 const props = defineProps<{
@@ -60,14 +60,14 @@ function copyCode() {
           type="text"
           :value="website.code || website.link"
           readonly
-          field-content
           inline
           max-w-70
           w-fit
           text-xs
           font-mono
           op80
-          @click="$event.target.select()"
+          field-content
+          @click="($event.target as HTMLInputElement)?.select()"
         />
         <button
           :class="

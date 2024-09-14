@@ -1,11 +1,11 @@
-import { h } from 'vue'
-import Theme from 'vitepress/theme'
 import {
   LayoutMode,
   NolebaseEnhancedReadabilitiesMenu,
   NolebaseEnhancedReadabilitiesPlugin,
   NolebaseEnhancedReadabilitiesScreenMenu,
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import Theme from 'vitepress/theme'
+import { h } from 'vue'
 import WebsiteList from '../components/WebsiteList.vue'
 import type { EnhanceAppContext } from 'vitepress'
 
