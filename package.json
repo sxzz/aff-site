@@ -2,7 +2,7 @@
   "name": "aff-site",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.13.2",
+  "packageManager": "pnpm@9.14.2",
   "description": "Affiliate Marketing site.",
   "type": "module",
   "license": "MIT",
@@ -41,19 +41,19 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "@vueuse/core": "^11.2.0",
+    "@vueuse/core": "^11.3.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.273",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.9.0",
+    "@iconify/json": "^2.2.275",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.10.0",
     "@sxzz/eslint-config": "^4.4.1",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.9.3",
     "eslint": "^9.15.0",
     "prettier": "^3.3.3",
     "tsup": "^8.3.5",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "unocss": "^0.64.1",
     "vite": "^5.4.11",
     "vitepress": "^1.5.0"
