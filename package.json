@@ -45,7 +45,7 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.280",
+    "@iconify-json/ri": "^1.2.3",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.11.1",
     "@sxzz/eslint-config": "^4.5.1",
     "@sxzz/prettier-config": "^2.0.2",

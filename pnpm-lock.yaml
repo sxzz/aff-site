@@ -15,9 +15,9 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
     devDependencies:
-      '@iconify/json':
-        specifier: ^2.2.280
-        version: 2.2.280
+      '@iconify-json/ri':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.11.1
         version: 2.11.1(@algolia/client-search@4.23.3)(@types/node@22.10.1)(postcss@8.4.49)(search-insights@2.14.0)(typescript@5.7.2)
@@ -692,11 +692,11 @@ packages:
   '@iconify-json/octicon@1.2.1':
     resolution: {integrity: sha512-4w7yMipQtp6s6aCHrSVlVXsf0OCBQ8CRmUTkMQUBexR42SXl4z5GnaUyaOMVoZttfgaBNnj0mlMB5T1cmRDgTg==}
 
+  '@iconify-json/ri@1.2.3':
+    resolution: {integrity: sha512-UVKofd5xkSevGd5K01pvO4NWsu+2C9spu+GxnMZUYymUiaWmpCAxtd22MFSpm6MGf0MP4GCwhDCo1Q8L8oZ9wg==}
+
   '@iconify-json/simple-icons@1.2.11':
     resolution: {integrity: sha512-AHCGDtBRqP+JzAbBzgO8uN/08CXxEmuaC6lQQZ3b5burKhRU12AJnJczwbUw2K5Mb/U85EpSUNhYMG3F28b8NA==}
-
-  '@iconify/json@2.2.280':
-    resolution: {integrity: sha512-3N1lTn6XBPQ+wMTiYkBAx+GE4yBD8B3l9/OGzs2sEy4FDsYoq7lLoiSo7S0XA6NN/dK9rv6bup8NPCIwIkOPOw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3353,14 +3353,13 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.11':
+  '@iconify-json/ri@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify/json@2.2.280':
+  '@iconify-json/simple-icons@1.2.11':
     dependencies:
       '@iconify/types': 2.0.0
-      pathe: 1.1.2
 
   '@iconify/types@2.0.0': {}
 
