@@ -42,20 +42,20 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.5.0",
-    "vue": "^3.5.17"
+    "vue": "^3.5.18"
   },
   "devDependencies": {
     "@iconify-json/ri": "^1.2.5",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.1",
     "@sxzz/eslint-config": "^7.0.6",
     "@sxzz/prettier-config": "^2.2.3",
     "@types/node": "^22.16.5",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "unocss": "^66.3.3",
-    "vite": "^7.0.5",
+    "vite": "^7.0.6",
     "vitepress": "^1.6.3"
   },
   "engines": {
