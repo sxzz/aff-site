@@ -2,7 +2,7 @@
   "name": "aff-site",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.26.1",
+  "packageManager": "pnpm@10.26.2",
   "description": "Affiliate Marketing site.",
   "type": "module",
   "license": "MIT",
@@ -54,7 +54,7 @@
     "prettier": "^3.7.4",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
-    "unocss": "^66.5.10",
+    "unocss": "^66.5.11",
     "vite": "^7.3.0",
     "vitepress": "^1.6.4"
   },
