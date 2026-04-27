@@ -2,7 +2,7 @@
   "name": "aff-site",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.2",
   "description": "Affiliate Marketing site.",
   "type": "module",
   "license": "MIT",
