@@ -5,8 +5,7 @@ export interface Website {
   reward?: string
   rewardKinds?: string[]
   tags?: (
-    | string
-    | { text: string; type: 'info' | 'tip' | 'warning' | 'danger' }
+    string | { text: string; type: 'info' | 'tip' | 'warning' | 'danger' }
   )[]
   code?: string
   link: string
